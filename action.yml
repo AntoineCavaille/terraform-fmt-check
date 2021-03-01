@@ -2,9 +2,17 @@ name: terraform-fmt-check
 description: Verify if terraform files are into canonical format
 author: Antoine Cavaille
 
+inputs:
+  terraform-path:
+    description: 'Path of your terraform resources'
+    required: true
+    default: '.'
+
 runs:
   using: docker
   image: Dockerfile
+  args:
+    - ${{ inputs.terraform-path }}
 
 branding:
   icon: life-buoy
