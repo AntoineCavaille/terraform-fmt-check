@@ -1,5 +1,4 @@
 name: terraform-fmt-check
-description: Verify if terraform files are into canonical format
 author: Antoine Cavaille
 
 inputs:
