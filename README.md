@@ -12,7 +12,8 @@ The default command is `terraform fmt -diff -check -recursive .`
 None.
 
 ## Example usage
-
+```
 uses: AntoineCavaille/terraform-fmt-check@v1.1
 with:
   terraform-path: "/my_custom_path/"
+```
