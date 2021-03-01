@@ -13,4 +13,6 @@ None.
 
 ## Example usage
 
-uses: actions/terraform-fmt-check@v1
+uses: AntoineCavaille/terraform-fmt-check@v1.1
+with:
+  terraform-path: "/my_custom_path/"
