@@ -1,10 +1,11 @@
 # Terraform fmt check docker action
 
-This action check if your terraform files in your root directory are into canonical format.
+This action check if your terraform files in your root directory are into canonical format. <br>
+The default command is `terraform fmt -diff -check -recursive .`
 
 ## Inputs
 
-None.
+`terraform-path` - Setup a custom PATH for your `terraform fmt` command to run
 
 ## Outputs
 
