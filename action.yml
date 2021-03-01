@@ -1,0 +1,11 @@
+name: terraform-fmt-check
+description: Verify if terraform files are into canonical format
+author: Antoine Cavaille
+
+runs:
+  using: docker
+  image: Dockerfile
+
+branding:
+  icon: life-buoy
+  color: gray-dark
