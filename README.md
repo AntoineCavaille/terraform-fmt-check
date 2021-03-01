@@ -4,11 +4,11 @@ This action check if your terraform files in your root directory are into canoni
 
 ## Inputs
 
-None
+None.
 
 ## Outputs
 
-None
+None.
 
 ## Example usage
 
